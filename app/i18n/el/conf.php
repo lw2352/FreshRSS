@@ -138,6 +138,8 @@ return array(
 			'tags' => 'Display by label',	// TODO
 			'type' => 'Type',	// TODO
 		),
+		'get_A' => 'Show all feeds, also those shown in their category',	// TODO
+		'get_Z' => 'Show all feeds, also archived ones',	// TODO
 		'get_all' => 'Display all articles',	// TODO
 		'get_all_labels' => 'Display articles with any label',	// TODO
 		'get_category' => 'Display “%s” category',	// TODO
@@ -257,12 +259,13 @@ return array(
 		'show' => array(
 			'_' => 'Articles to display',	// TODO
 			'active_category' => 'Active category',	// TODO
-			'adaptive' => 'Adjust showing',	// TODO
+			'adaptive' => 'Show unreads if any, all articles otherwise',	// TODO
 			'all_articles' => 'Show all articles',	// TODO
 			'all_categories' => 'All categories',	// TODO
 			'no_category' => 'No category',	// TODO
 			'remember_categories' => 'Remember open categories',	// TODO
-			'unread' => 'Show only unread',	// TODO
+			'unread' => 'Show unreads',	// TODO
+			'unread_or_favorite' => 'Show unreads and favourites',	// TODO
 		),
 		'show_fav_unread_help' => 'Applies also on labels',	// TODO
 		'sides_close_article' => 'Clicking outside of article text area closes the article',	// TODO
@@ -286,6 +289,7 @@ return array(
 	'sharing' => array(
 		'_' => 'Sharing',	// TODO
 		'add' => 'Add a sharing method',	// TODO
+		'bluesky' => 'Bluesky',	// TODO
 		'deprecated' => 'This service is deprecated and will be removed from FreshRSS in a <a href="https://freshrss.github.io/FreshRSS/en/users/08_sharing_services.html" title="Open documentation for more information" target="_blank">future release</a>.',	// TODO
 		'diaspora' => 'Diaspora*',	// TODO
 		'email' => 'Email',	// TODO

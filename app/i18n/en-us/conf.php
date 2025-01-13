@@ -138,6 +138,8 @@ return array(
 			'tags' => 'Display by label',	// IGNORE
 			'type' => 'Type',	// IGNORE
 		),
+		'get_A' => 'Show all feeds, also those shown in their category',	// IGNORE
+		'get_Z' => 'Show all feeds, also archived ones',	// IGNORE
 		'get_all' => 'Display all articles',	// IGNORE
 		'get_all_labels' => 'Display articles with any label',	// IGNORE
 		'get_category' => 'Display “%s” category',	// IGNORE
@@ -257,12 +259,13 @@ return array(
 		'show' => array(
 			'_' => 'Articles to display',	// IGNORE
 			'active_category' => 'Active category',	// IGNORE
-			'adaptive' => 'Adjust showing',	// IGNORE
+			'adaptive' => 'Show unreads if any, all articles otherwise',	// IGNORE
 			'all_articles' => 'Show all articles',	// IGNORE
 			'all_categories' => 'All categories',	// IGNORE
 			'no_category' => 'No category',	// IGNORE
 			'remember_categories' => 'Remember open categories',	// IGNORE
-			'unread' => 'Show only unread',	// IGNORE
+			'unread' => 'Show unreads',	// IGNORE
+			'unread_or_favorite' => 'Show unreads and favorites',	// IGNORE
 		),
 		'show_fav_unread_help' => 'Applies also on labels',	// IGNORE
 		'sides_close_article' => 'Clicking outside of article text area closes the article',	// IGNORE
@@ -286,6 +289,7 @@ return array(
 	'sharing' => array(
 		'_' => 'Sharing',	// IGNORE
 		'add' => 'Add a sharing method',	// IGNORE
+		'bluesky' => 'Bluesky',	// IGNORE
 		'deprecated' => 'This service is deprecated and will be removed from FreshRSS in a <a href="https://freshrss.github.io/FreshRSS/en/users/08_sharing_services.html" title="Open documentation for more information" target="_blank">future release</a>.',	// IGNORE
 		'diaspora' => 'Diaspora*',	// IGNORE
 		'email' => 'Email',	// IGNORE

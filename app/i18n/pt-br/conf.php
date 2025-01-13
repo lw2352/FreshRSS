@@ -138,6 +138,8 @@ return array(
 			'tags' => 'Exibir por tag',
 			'type' => 'Tipo',
 		),
+		'get_A' => 'Show all feeds, also those shown in their category',	// TODO
+		'get_Z' => 'Show all feeds, also archived ones',	// TODO
 		'get_all' => 'Mostrar todos os artigos',
 		'get_all_labels' => 'Exibir artigos com qualquer rótulo',
 		'get_category' => 'Visualizar “%s” categoria',
@@ -257,12 +259,13 @@ return array(
 		'show' => array(
 			'_' => 'Artigos para exibir',
 			'active_category' => 'Categoria ativa',
-			'adaptive' => 'Ajustar visualização',
+			'adaptive' => 'Show unreads if any, all articles otherwise',	// TODO
 			'all_articles' => 'Exibir todos os artigos',
 			'all_categories' => 'Exibir todas as categorias',
 			'no_category' => 'Nenhuma categoria',
 			'remember_categories' => 'lembrar de abrir as categorias',
 			'unread' => 'Exibir apenas não lido',
+			'unread_or_favorite' => 'Show unreads and favourites',	// TODO
 		),
 		'show_fav_unread_help' => 'Aplicar também nas tags',
 		'sides_close_article' => 'Clicando fora da área do texto do artigo fecha o mesmo',
@@ -286,6 +289,7 @@ return array(
 	'sharing' => array(
 		'_' => 'Compartilhando',
 		'add' => 'Adicionar um método de compartilhamento',
+		'bluesky' => 'Bluesky',	// TODO
 		'deprecated' => 'Este serviço está obceloeto e será removido do FreshRSS <a href="https://freshrss.github.io/FreshRSS/en/users/08_sharing_services.html" title="Abra este documento para mais informações" target="_blank">em versões futuras</a>.',
 		'diaspora' => 'Diaspora*',	// IGNORE
 		'email' => 'E-mail',

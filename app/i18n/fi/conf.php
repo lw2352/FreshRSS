@@ -138,6 +138,8 @@ return array(
 			'tags' => 'Näytä merkinnän mukaan',
 			'type' => 'Laji',
 		),
+		'get_A' => 'Show all feeds, also those shown in their category',	// TODO
+		'get_Z' => 'Show all feeds, also archived ones',	// TODO
 		'get_all' => 'Näytä kaikki artikkelit',
 		'get_all_labels' => 'Näytä artikkelit, joissa on mikä tahansa merkintä',
 		'get_category' => 'Näytä luokka “%s”',
@@ -257,12 +259,13 @@ return array(
 		'show' => array(
 			'_' => 'Näytettävät artikkelit',
 			'active_category' => 'Käytössä oleva luokka',
-			'adaptive' => 'Säädä näkymää',
+			'adaptive' => 'Show unreads if any, all articles otherwise',	// TODO
 			'all_articles' => 'Näytä kaikki artikkelit',
 			'all_categories' => 'Kaikki luokat',
 			'no_category' => 'Ei luokkaa',
 			'remember_categories' => 'Muista avoinna olevat luokat',
 			'unread' => 'Näytä vain lukemattomat',
+			'unread_or_favorite' => 'Show unreads and favourites',	// TODO
 		),
 		'show_fav_unread_help' => 'Koskee myös merkintöjä',
 		'sides_close_article' => 'Artikkeli sulkeutuu napsauttamalla sen ulkopuolelle',
@@ -286,6 +289,7 @@ return array(
 	'sharing' => array(
 		'_' => 'Jakaminen',
 		'add' => 'Lisää jakamistapa',
+		'bluesky' => 'Bluesky',	// TODO
 		'deprecated' => 'Tämä palvelu on vanhentunut, ja se poistetaan FreshRSS-sovelluksen <a href="https://freshrss.github.io/FreshRSS/en/users/08_sharing_services.html" title="Lisätietoja ohjeissa" target="_blank">tulevasta versiosta</a>.',
 		'diaspora' => 'Diaspora*',	// IGNORE
 		'email' => 'Sähköposti',

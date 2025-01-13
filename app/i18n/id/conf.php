@@ -138,6 +138,8 @@ return array(
 			'tags' => 'Tampilkan berdasarkan label',
 			'type' => 'Tipe',
 		),
+		'get_A' => 'Show all feeds, also those shown in their category',	// TODO
+		'get_Z' => 'Show all feeds, also archived ones',	// TODO
 		'get_all' => 'Tampilkan semua artikel',
 		'get_all_labels' => 'Tampilkan artikel dengan setiap label',
 		'get_category' => 'Tampilkan kategori "%s"',
@@ -257,12 +259,13 @@ return array(
 		'show' => array(
 			'_' => 'Artikel untuk ditampilkan',
 			'active_category' => 'Kategori aktif',
-			'adaptive' => 'Penyesuaian tampilan',
+			'adaptive' => 'Show unreads if any, all articles otherwise',	// TODO
 			'all_articles' => 'Tampilkan semua artikel',
 			'all_categories' => 'Semua kategori',
 			'no_category' => 'Tidak ada kategori',
 			'remember_categories' => 'Ingat kategori yang terbuka',
 			'unread' => 'Hanya tampilkan yang belum dibaca',
+			'unread_or_favorite' => 'Show unreads and favourites',	// TODO
 		),
 		'show_fav_unread_help' => 'Berlaku juga pada label',
 		'sides_close_article' => 'Klik di luar area teks artikel untuk menutup artikel',
@@ -286,6 +289,7 @@ return array(
 	'sharing' => array(
 		'_' => 'Sharing',	// TODO
 		'add' => 'Add a sharing method',	// TODO
+		'bluesky' => 'Bluesky',	// TODO
 		'deprecated' => 'This service is deprecated and will be removed from FreshRSS in a <a href="https://freshrss.github.io/FreshRSS/en/users/08_sharing_services.html" title="Open documentation for more information" target="_blank">future release</a>.',	// TODO
 		'diaspora' => 'Diaspora*',	// IGNORE
 		'email' => 'Email',	// TODO

@@ -138,6 +138,8 @@ return array(
 			'tags' => 'Nach Labels filtern',
 			'type' => 'Filter-Typ',
 		),
+		'get_A' => 'Show all feeds, also those shown in their category',	// TODO
+		'get_Z' => 'Show all feeds, also archived ones',	// TODO
 		'get_all' => 'Alle Artikel anzeigen',
 		'get_all_labels' => 'Alle Artikle mit beliebigem Label anzeigen',
 		'get_category' => 'Kategorie „%s“ anzeigen',
@@ -257,12 +259,13 @@ return array(
 		'show' => array(
 			'_' => 'Artikel zum Anzeigen',
 			'active_category' => 'Aktive Kategorie',
-			'adaptive' => 'Anzeige anpassen',
+			'adaptive' => 'Show unreads if any, all articles otherwise',	// TODO
 			'all_articles' => 'Alle Artikel zeigen',
 			'all_categories' => 'Alle Kategorien',
 			'no_category' => 'Keine Kategorie',
 			'remember_categories' => 'Geöffnete Kategorien merken',
 			'unread' => 'Nur ungelesene zeigen',
+			'unread_or_favorite' => 'Show unreads and favourites',	// TODO
 		),
 		'show_fav_unread_help' => 'Auch auf Labels anwenden',
 		'sides_close_article' => 'Klick außerhalb des Artikel-Textes schließt den Artikel',
@@ -286,6 +289,7 @@ return array(
 	'sharing' => array(
 		'_' => 'Teilen',
 		'add' => 'Füge eine Teilen-Dienst hinzu',
+		'bluesky' => 'Bluesky',	// TODO
 		'deprecated' => 'Dieser Dienst ist veraltet und wir in einer <a href="https://freshrss.github.io/FreshRSS/en/users/08_sharing_services.html" title="Open documentation for more information" target="_blank">zukünftigen FreshRSS-Version</a> entfernt.',
 		'diaspora' => 'Diaspora*',	// IGNORE
 		'email' => 'E-Mail',

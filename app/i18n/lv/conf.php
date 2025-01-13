@@ -138,6 +138,8 @@ return array(
 			'tags' => 'Rādīt pēc birkas',
 			'type' => 'Veids',
 		),
+		'get_A' => 'Show all feeds, also those shown in their category',	// TODO
+		'get_Z' => 'Show all feeds, also archived ones',	// TODO
 		'get_all' => 'Rādīt visus rakstus',
 		'get_all_labels' => 'Display articles with any label',	// TODO
 		'get_category' => 'Rādīt kategoriju “%s”',
@@ -257,12 +259,13 @@ return array(
 		'show' => array(
 			'_' => 'Rādāmie raksti',
 			'active_category' => 'Aktīvā kategorija',
-			'adaptive' => 'Pielāgot rādīšanu',
+			'adaptive' => 'Show unreads if any, all articles otherwise',	// TODO
 			'all_articles' => 'Rādīt visus rakstus',
 			'all_categories' => 'Visas kategorijas',
 			'no_category' => 'Bez kategorijas',
 			'remember_categories' => 'Iegaumēt atvērtās kategorijas',
 			'unread' => 'Rādīt tikai nelasītos',
+			'unread_or_favorite' => 'Show unreads and favourites',	// TODO
 		),
 		'show_fav_unread_help' => 'Attiecas arī uz birkām',
 		'sides_close_article' => 'Spiežot ārpus raksta teksta apgabala, raksts tiek aizvērts',
@@ -286,6 +289,7 @@ return array(
 	'sharing' => array(
 		'_' => 'Dalīšanās',
 		'add' => 'Pievienojat dalīšanās metodi',
+		'bluesky' => 'Bluesky',	// TODO
 		'deprecated' => 'Šis pakalpojums ir novecojis un tiks noņemts no FreshRSS kādā <a href="https://freshrss.github.io/FreshRSS/en/users/08_sharing_services.html" title="Atvērt dokumentāciju, lai iegūtu vairāk informācijas" target="_blank">nākamajā versijā</a>.',
 		'diaspora' => 'Diaspora*',	// IGNORE
 		'email' => 'E-pasts',

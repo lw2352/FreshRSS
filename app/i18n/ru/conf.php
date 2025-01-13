@@ -138,6 +138,8 @@ return array(
 			'tags' => 'Отображение по метке',
 			'type' => 'Тип',
 		),
+		'get_A' => 'Show all feeds, also those shown in their category',	// TODO
+		'get_Z' => 'Show all feeds, also archived ones',	// TODO
 		'get_all' => 'Показать все статьи',
 		'get_all_labels' => 'Показать все статьи с любыми метками',
 		'get_category' => 'Показать категорию “%s”',
@@ -257,12 +259,13 @@ return array(
 		'show' => array(
 			'_' => 'Какие статьи отображать',
 			'active_category' => 'Активную категорию',
-			'adaptive' => 'Адаптивно',
+			'adaptive' => 'Show unreads if any, all articles otherwise',	// TODO
 			'all_articles' => 'Показывать все статьи',
 			'all_categories' => 'Все категории',
 			'no_category' => 'Никакие категории',
 			'remember_categories' => 'Запоминать открытые категории',
 			'unread' => 'Только непрочитанные',
+			'unread_or_favorite' => 'Show unreads and favourites',	// TODO
 		),
 		'show_fav_unread_help' => 'Также относится к меткам',
 		'sides_close_article' => 'Нажатия мышью за пределами текста статьи закрывают статью',
@@ -286,6 +289,7 @@ return array(
 	'sharing' => array(
 		'_' => 'Обмен',
 		'add' => 'Добавить способ обмена',
+		'bluesky' => 'Bluesky',	// TODO
 		'deprecated' => 'Этот сервис устарел и будет удалён из FreshRSS в <a href="https://freshrss.github.io/FreshRSS/en/users/08_sharing_services.html" title="Открыть документацию для большей информации" target="_blank">будущем релизе</a>.',
 		'diaspora' => 'Diaspora*',	// IGNORE
 		'email' => 'Электронная почта',

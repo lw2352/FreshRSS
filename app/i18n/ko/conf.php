@@ -138,6 +138,8 @@ return array(
 			'tags' => '태그별로 표시',
 			'type' => '유형',
 		),
+		'get_A' => 'Show all feeds, also those shown in their category',	// TODO
+		'get_Z' => 'Show all feeds, also archived ones',	// TODO
 		'get_all' => '모든 글 표시',
 		'get_all_labels' => '라벨이 있는 글 표시',
 		'get_category' => '“%s” 카테고리 표시',
@@ -257,12 +259,13 @@ return array(
 		'show' => array(
 			'_' => '글 표시 방식',
 			'active_category' => '활성화 된 카테고리',
-			'adaptive' => '읽지 않은 글이 없으면 모든 글 표시',
+			'adaptive' => 'Show unreads if any, all articles otherwise',	// TODO
 			'all_articles' => '모든 글 표시',
 			'all_categories' => '모든 카테고리',
 			'no_category' => '카테고리 없음',
 			'remember_categories' => '열린 카테고리 기억',
 			'unread' => '읽지 않은 글만 표시',
+			'unread_or_favorite' => 'Show unreads and favourites',	// TODO
 		),
 		'show_fav_unread_help' => '라벨에도 적용하기',
 		'sides_close_article' => '글 영역 바깥을 클릭하면 글 접기',
@@ -286,6 +289,7 @@ return array(
 	'sharing' => array(
 		'_' => '공유',
 		'add' => '공유 방법 추가',
+		'bluesky' => 'Bluesky',	// TODO
 		'deprecated' => '이 서비스는 더 이상 사용되지 않으며 <a href="https://freshrss.github.io/FreshRSS/en/users/08_sharing_services.html" title="상세 정보 문서 열기" target="_blank">추후 릴리즈</a> FreshRSS에서 삭제 될 것 입니다.',
 		'diaspora' => 'Diaspora*',	// IGNORE
 		'email' => '메일',

@@ -138,6 +138,8 @@ return array(
 			'tags' => 'Afficher par étiquette',
 			'type' => 'Type',	// IGNORE
 		),
+		'get_A' => 'Tous les flux, y compris ceux limités à leur catégorie',
+		'get_Z' => 'Tous les flux, y compris les archivés',
 		'get_all' => 'Afficher tous les articles',
 		'get_all_labels' => 'Afficher les articles avec une étiquette',
 		'get_category' => 'Afficher la catégorie <em>%s<em>',
@@ -257,12 +259,13 @@ return array(
 		'show' => array(
 			'_' => 'Articles à afficher',
 			'active_category' => 'La catégorie active',
-			'adaptive' => 'Adapter l’affichage',
+			'adaptive' => 'Afficher les non lus s’il y en a, sinon tous les articles',
 			'all_articles' => 'Afficher tous les articles',
 			'all_categories' => 'Toutes les catégories',
 			'no_category' => 'Aucune catégorie',
 			'remember_categories' => 'Se souvenir des catégories dépliées',
 			'unread' => 'Afficher les non lus',
+			'unread_or_favorite' => 'Afficher les non lus et les favoris',
 		),
 		'show_fav_unread_help' => 'S’applique aussi aux étiquettes',
 		'sides_close_article' => 'Cliquer hors de la zone de texte ferme l’article',
@@ -286,6 +289,7 @@ return array(
 	'sharing' => array(
 		'_' => 'Partage',
 		'add' => 'Ajouter une méthode de partage',
+		'bluesky' => 'Bluesky',	// TODO
 		'deprecated' => 'Ce service est obsolète et sera supprimé dans une <a href="https://freshrss.github.io/FreshRSS/en/users/08_sharing_services.html" title="Voir la documentation" target="_blank">prochaine version de FreshRSS</a>.',
 		'diaspora' => 'Diaspora*',	// IGNORE
 		'email' => 'Courriel',

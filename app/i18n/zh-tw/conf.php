@@ -138,6 +138,8 @@ return array(
 			'tags' => '按標籤顯示',
 			'type' => '類型',
 		),
+		'get_A' => 'Show all feeds, also those shown in their category',	// TODO
+		'get_Z' => 'Show all feeds, also archived ones',	// TODO
 		'get_all' => '顯示所有文章',
 		'get_all_labels' => '顯示任何標籤的文章',
 		'get_category' => '顯示分類 “%s”',
@@ -257,12 +259,13 @@ return array(
 		'show' => array(
 			'_' => '文章顯示',
 			'active_category' => '啟用的分類',
-			'adaptive' => '智能顯示',
+			'adaptive' => 'Show unreads if any, all articles otherwise',	// TODO
 			'all_articles' => '顯示所有',
 			'all_categories' => '所有分類',
 			'no_category' => '無分類',
 			'remember_categories' => '記住打開的分類',
 			'unread' => '只顯示未讀',
+			'unread_or_favorite' => 'Show unreads and favourites',	// TODO
 		),
 		'show_fav_unread_help' => '同樣適用於標籤',
 		'sides_close_article' => '點擊文章區域外以關閉',
@@ -286,6 +289,7 @@ return array(
 	'sharing' => array(
 		'_' => '分享',
 		'add' => '新增分享方式',
+		'bluesky' => 'Bluesky',	// TODO
 		'deprecated' => '這項功能已廢棄並在將來版本的 FreshRSS 中移除，詳情請見 <a href="https://freshrss.github.io/FreshRSS/en/users/08_sharing_services.html" title="Open documentation for more information" target="_blank">說明文檔</a>.',
 		'diaspora' => 'Diaspora*',	// IGNORE
 		'email' => '郵箱',	// IGNORE

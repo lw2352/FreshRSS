@@ -138,6 +138,8 @@ return array(
 			'tags' => 'Rendezés címke szerint',
 			'type' => 'Típus',
 		),
+		'get_A' => 'Show all feeds, also those shown in their category',	// TODO
+		'get_Z' => 'Show all feeds, also archived ones',	// TODO
 		'get_all' => 'Minden cikk megjelenítése',
 		'get_all_labels' => 'Cikkek megjelenítése bármilyen címkével',
 		'get_category' => '„%s” kategória megjelenítése',
@@ -257,12 +259,13 @@ return array(
 		'show' => array(
 			'_' => 'Megjelenített cikkek',
 			'active_category' => 'Aktív kategória',
-			'adaptive' => 'Megjelenítés beállítása',
+			'adaptive' => 'Show unreads if any, all articles otherwise',	// TODO
 			'all_articles' => 'Mindegyik cikk megjelenítése',
 			'all_categories' => 'Mindegyik kategória',
 			'no_category' => 'Nincs kategória',
 			'remember_categories' => 'Emlékezzen a kibontott kategóriákra',
 			'unread' => 'Csak az olvasatlan cikkek',
+			'unread_or_favorite' => 'Show unreads and favourites',	// TODO
 		),
 		'show_fav_unread_help' => 'A címkékre is vonatkozik',
 		'sides_close_article' => 'A cikk szövegrészén kívüli kattintás bezárja a cikket',
@@ -286,6 +289,7 @@ return array(
 	'sharing' => array(
 		'_' => 'Megosztás',
 		'add' => 'Megosztási mód hozzáadása',
+		'bluesky' => 'Bluesky',	// TODO
 		'deprecated' => 'Ez a szolgáltatás elavult, és el lesz távolítva a FreshRSS <a href="https://freshrss.github.io/FreshRSS/en/users/08_sharing_services.html" title="Dokumentáció további információkért" target="_blank">következő kiadásában.</a>.',
 		'diaspora' => 'Diaspora*',	// IGNORE
 		'email' => 'Email',	// IGNORE
